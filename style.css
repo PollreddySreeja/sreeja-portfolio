@@ -327,10 +327,12 @@ ul { list-style: none; }
 .certifications-section { background: var(--bg-primary); }
 .cert-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .cert-card {
+  display: block; text-decoration: none;
   background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-lg);
   padding: 28px 20px; text-align: center; transition: var(--transition);
 }
 .cert-card:hover { transform: translateY(-5px); border-color: rgba(99,102,241,0.4); box-shadow: 0 0 20px rgba(99,102,241,0.2); }
+a.cert-card:hover h3 { color: var(--accent); }
 .cert-icon {
   width: 70px; height: 70px; border-radius: 50%; margin: 0 auto 16px;
   display: flex; align-items: center; justify-content: center; font-size: 1.6rem;
