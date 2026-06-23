@@ -116,7 +116,7 @@ ul { list-style: none; }
 .hero-tagline { color: var(--text-secondary); font-size: 1rem; margin-bottom: 8px; }
 .hero-location { color: var(--accent); font-size: 0.95rem; margin-bottom: 28px; }
 .hero-location i { margin-right: 6px; }
-.hero-cta { display: flex; gap: 16px; margin-bottom: 28px; flex-wrap: wrap; }
+.hero-cta { display: flex; gap: 16px; margin-bottom: 28px; align-items: center; }
 
 /* Buttons */
 .btn {
